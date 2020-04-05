@@ -1,6 +1,12 @@
+/* Al presionar el Botón, mostrar un número Random del 1 al 10 inclusive */
+
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
 	
+	var maximo = 10;
+	var minimo = 1;
+	
+	
+	alert (Math.floor(Math.random() * ((maximo + 1) - minimo) + minimo));	
 
 }//FIN DE LA FUNCIÓN
